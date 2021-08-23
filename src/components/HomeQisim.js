@@ -47,10 +47,7 @@ function HomeQisim(props) {
                             <div className="mysize"><a href="/">Обслуживание</a></div>
                             <div className="mysize"><a href="/modelqsm">Техническая информация</a></div>
                             <div className="mysize"><a href="/uslugi">Услуги</a></div>
-                            <div className="form-check form-switch">
-                                <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault"/>
-                                    <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Default switch checkbox input</label>
-                            </div>
+                           
                             <div className="lines"></div>
                             {/*
                             <div className=""> +7 (495) 723-44-44</div>
