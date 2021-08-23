@@ -1,0 +1,1902 @@
+.Myvertolyot {
+  .left {
+    padding-top: 42px;
+    width: 4%;
+    background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+    border-right: 1px solid #C4C4C4;
+
+    .mybtn {
+      width: 43px;
+      height: 30px;
+      border: none;
+      background-color: transparent;
+    }
+
+    .admin-menu {
+      z-index: 3;
+      transition: 0.2s linear;
+      height: 790px;
+      width: 460px;
+      box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.25);
+      background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+      position: absolute;
+      top: 0;
+
+      .one {
+        margin-left: 50px;
+        margin-top: 30px;
+
+        button {
+          margin-left: 100px;
+        }
+      }
+
+      .mysize {
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #FFFFFF;
+        margin-top: 30px;
+        text-transform: uppercase;
+
+        a {
+          opacity: 0.5;
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+      }
+
+      .lines {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 1px;
+        background: rgba(196, 196, 196, 0.15);
+      }
+
+      .mysize2 {
+        margin-top: 5px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #FFFFFF;
+        opacity: 0.4;
+
+        a {
+          text-decoration: none;
+          color: #FFFFFF;
+          opacity: 0.4;
+        }
+      }
+    }
+
+    .admin-menu-close {
+      opacity: 0;
+      width: 0;
+      height: 0;
+
+      .lines {
+        opacity: 0;
+      }
+
+      .mysize {
+        opacity: 0;
+      }
+
+      .mysize2 {
+        opacity: 0;
+      }
+
+      transition: 0.2s linear;
+
+      img {
+        display: none;
+      }
+    }
+
+    .mysbtns {
+      padding: 0;
+      background-color: transparent;
+      border: none;
+
+      .left-bottom2 {
+        margin-top: 470px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        transform: rotate(-90deg);
+      }
+
+      .left-bottom {
+        margin-top: 55px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        transform: rotate(-90deg);
+      }
+
+      .ikknchs {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .right {
+    height: 100vh;
+    width: 96%;
+    background-image: url("images/bgvertol.png");
+
+    .nav-link {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    .text-style {
+      color: #FFFFFF;
+      text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    }
+
+    .right-bg {
+      background: linear-gradient(112.21deg, rgba(31, 31, 31, 0.91) 2.72%, rgba(18, 18, 18, 0.91) 101.59%);
+      height: 100vh;
+
+      .right-top {
+        background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+        height: 94px;
+
+        .my-links {
+          position: absolute;
+          display: none;
+          opacity: 0;
+        }
+
+        .navbar-brand {
+          margin-left: 25px;
+          margin-right: 18px;
+        }
+
+        .topdan {
+          margin-top: 35px;
+        }
+
+        .chapdan {
+          margin-left: 10px;
+          margin-top: 35px;
+        }
+
+        .chapdan1 {
+
+          margin-top: 35px;
+        }
+
+        ul {
+          li {
+          }
+
+          display: flex;
+          list-style: none;
+
+          .ones {
+            margin-left: 52px;
+            margin-top: 30px;
+          }
+
+          .toes {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 3px;
+            height: 16px;
+            background-color: rgba(255, 255, 255, 0.4);
+            margin-top: 46px;
+          }
+
+          .threes {
+            margin-top: 30px;
+          }
+
+          .foores {
+            margin-top: 22px;
+            margin-left: 30px;
+
+            .imgs {
+              .bir {
+                margin-right: 1px;
+                margin-top: 15px;
+              }
+
+              .ikki {
+                margin-left: 1px;
+                margin-top: 7px;
+              }
+
+              width: 43px;
+              height: 45px;
+            }
+          }
+
+          .fivees {
+            margin-top: 20px;
+            margin-left: 25px;
+
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+
+          button {
+            padding: 0;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 16px;
+            font-weight: 400;
+            border: none;
+            background-color: transparent;
+
+            &:focus {
+              color: #FFFFFF;
+              text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+            }
+          }
+        }
+
+
+      }
+
+      .right-bottom {
+        .bottoms {
+          margin-top: 160px;
+
+          .onset {
+            margin-left: 65px;
+
+            .birs {
+              height: 60px;
+              font-size: 72px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .ikks {
+              margin-top: 15px;
+              font-size: 72px;
+              font-weight: 300;
+              color: #FFFFFF;
+              height: 60px;
+              margin-bottom: 30px;
+            }
+
+            .uchs {
+              font-size: 20px;
+              font-weight: 300;
+              color: rgba(255, 255, 255, 0.5);
+
+              width: 650px;
+            }
+
+            .torts {
+              button {
+                margin-top: 25px;
+                width: 270px;
+                height: 60px;
+                background-color: transparent;
+                border: 2px solid #FFFFFF;
+                font-size: 20px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+            }
+
+            .spins {
+              margin-top: 170px;
+              margin-left: 650px;
+            }
+          }
+
+          .twoset {
+            margin-top: 180px;
+            margin-left: 655px;
+
+            .lines {
+              margin-bottom: 30px;
+              margin-left: 15px;
+              width: 2px;
+              height: 140px;
+              background-color: #C4C4C4;
+            }
+
+            .second {
+              margin-top: 32px;
+              margin-bottom: 32px;
+            }
+          }
+        }
+
+        .ochdan {
+          margin-right: 10px;
+        }
+
+        .modelqism {
+          /*background: linear-gradient(200.21deg,#121212 211.59%, #121212 211.59%);*/
+          /* background: linear-gradient(512.21deg, #121212 , #121212);*/
+          /*background-color: #131313;*/
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+
+          .sliders {
+            width: 1360px !important;
+
+            .item {
+              margin-right: 0 !important;
+            }
+          }
+
+
+          .slick-next {
+            position: absolute;
+            top: 350px;
+            left: 1375px;
+            background-image: url("images/next.png");
+            width: 19px;
+            height: 36px;
+            z-index: 5;
+          }
+
+          .slick-dots {
+            position: absolute;
+            transform: rotate(90deg);
+            left: 1150px;
+            bottom: 150px;
+            height: 100px !important;
+            width: 400px !important;
+          }
+
+          .slick-prev {
+            position: absolute;
+            top: 40px;
+            left: 1370px;
+            background-image: url("images/prev.png");
+            width: 19px;
+            height: 36px;
+            z-index: 5;
+          }
+
+          .slick-dots li button:before {
+            color: #FFFFFF;
+            font-size: 12px;
+          }
+
+          .slick-next:before {
+            content: none;
+          }
+
+          .slick-prev:before {
+            content: none;
+          }
+
+          .qism2 {
+            height: 697px;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-image: url("images/1 76.png");
+
+            .modeltwo {
+
+              padding-left: 55px;
+              padding-top: 30px;
+
+              .one {
+                width: 660px;
+                height: 390px;
+                background-color: #232323;
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+
+                .first {
+                  .bir {
+                    text-transform: uppercase;
+                    margin-top: 15px;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: #FFFFFF;
+                  }
+
+                  .foores {
+                    margin-left: 133px;
+                    margin-top: 18px;
+                    background-color: transparent;
+                    border: none;
+
+                    .imgs {
+                      img {
+                        width: 8px;
+                      }
+
+                      .bir {
+                        margin-top: 16px;
+                        margin-right: 1px;
+                      }
+
+                      .ikki {
+                        margin-left: 1px;
+                        margin-top: 8px;
+                      }
+
+                      .uch {
+                        margin-top: 2px;
+                      }
+                    }
+                  }
+                }
+
+                .second {
+                  .eych {
+                    padding: 22px 10px;
+                  }
+
+                  tr {
+
+                    border: 2px solid rgba(196, 196, 196, 0.05);
+
+                    td {
+                      height: 95px;
+                      margin-left: 20px;
+                      width: 165px;
+                      border: 2px solid rgba(196, 196, 196, 0.05);
+
+                      .sizes {
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+                      }
+
+                      button {
+                        background-color: #292929;
+                        text-transform: uppercase;
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        border: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            .left-buttom {
+              margin-left: 55px;
+              margin-top: 20px;
+
+              .one {
+                font-size: 36px;
+                font-weight: 300;
+                color: #FFFFFF;
+                text-transform: uppercase;
+              }
+
+              .two {
+                text-transform: uppercase;
+                font-size: 36px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+
+              .three {
+                font-size: 20px;
+                font-weight: 200;
+                color: #FFFFFF;
+                opacity: 0.5;
+              }
+
+              .four {
+                text-transform: uppercase;
+                margin-top: 33px;
+
+                .four1 {
+                  text-transform: uppercase;
+                  width: 250px;
+                  height: 50px;
+                  background-color: #FFFFFF;
+                  font-size: 20px;
+                  font-weight: 700;
+                  color: #1B1B1B;
+                }
+
+                .four2 {
+                  text-transform: uppercase;
+                  border: 1px solid #FFFFFF;
+                  margin-left: 30px;
+                  width: 250px;
+                  height: 50px;
+                  background-color: transparent;
+                  font-size: 20px;
+                  font-weight: 700;
+                  color: #FFFFFF;
+                }
+              }
+            }
+          }
+        }
+
+        .obzor-qism {
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%) !important;
+
+          .second-obzor {
+            padding-left: 55px;
+            background-image: url("images/model.png");
+            background-position: center center;
+            height: 697px;
+            background-repeat: no-repeat;
+
+            .obzor-bir {
+              margin-top: 130px;
+
+              .leftright {
+                margin-top: 2px;
+                margin-left: 10px;
+                margin-right: 10px;
+              }
+
+              .bir {
+
+                img {
+                  cursor: pointer;
+                }
+
+                button {
+                  background-color: transparent;
+                  border: none;
+                }
+
+                font-size: 24px;
+                font-weight: 300;
+                color: rgba(255, 255, 255, 0.1);
+
+                span {
+                  color: #FFFFFF;
+                }
+              }
+
+              .ikki {
+                margin-top: 30px;
+                text-transform: uppercase;
+                font-size: 60px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+
+              .uch {
+                width: 430px;
+                font-size: 20px;
+                font-weight: 300;
+                color: rgba(255, 255, 255, 0.55);
+              }
+
+              .tort {
+                margin-top: 20px;
+
+                .bir {
+                  margin-top: 30px;
+                  background-color: #FFFFFF;
+                  color: #1B1B1B;
+                  margin-right: 10px;
+                }
+
+                .ikki {
+                  border: 1px solid #FFFFFF;
+                  background-color: transparent;
+                  color: #FFFFFF;
+                }
+
+                button {
+                  text-transform: uppercase;
+                  width: 130px;
+                  height: 50px;
+                  font-size: 14px;
+                  font-weight: 500;
+                }
+                .soznt{
+                    width: 105px;
+
+                }
+              }
+            }
+
+            .obzor-ikki {
+
+              .one {
+                position: absolute;
+                top: 385px;
+                left: 1150px;
+              }
+
+              .two {
+                position: absolute;
+                top: 200px;
+                left: 805px;
+              }
+
+              .three {
+                position: absolute;
+                top: 493px;
+                left: 660px;
+              }
+
+              .bir {
+                position: absolute;
+                left: 580px;
+                top: 190px;
+
+                img {
+                  width: 490px;
+                  height: 490px;
+                }
+
+                @keyframes example {
+                  0% {
+                    transform: rotate(0deg)
+                  }
+                  100% {
+                    transform: rotate(360deg)
+                  }
+                }
+                animation-name: example;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+              }
+
+              .ikki {
+                position: absolute;
+                left: 580px;
+                top: 190px;
+
+                img {
+                  width: 490px;
+                  height: 490px;
+                }
+
+                @keyframes example {
+                  0% {
+                    transform: rotate(0deg)
+                  }
+                  100% {
+                    transform: rotate(360deg)
+                  }
+                }
+                animation-name: example;
+                animation-duration: 2s;
+
+                animation-iteration-count: infinite;
+              }
+
+
+            }
+
+            .obzor-uch {
+              margin-left: 810px;
+              margin-top: 145px;
+
+              .sizes1 {
+                line-height: 36px;
+                font-size: 60px;
+                font-weight: 700;
+                color: #FFFFFF;
+                margin-bottom: 4px;
+              }
+
+              .sizes2 {
+                margin-bottom: 40px;
+                font-size: 30px;
+                font-weight: 300;
+                color: #FFFFFF;
+              }
+
+              .bir {
+              }
+
+              .ikki {
+              }
+
+              .uch {
+              }
+
+              .tort {
+              }
+            }
+          }
+
+          .mylinksd{
+            margin-left: 10px;
+            margin-top: 30px;
+            ul{
+              li{
+                a{
+                  padding-top: 10px;
+                  background-color: transparent;
+                  text-decoration: none;
+                  font-size:18px ;
+                  font-weight:300 ;
+                  color:#FFFFFF ;
+                  border: 1px solid #FFFFFF;
+                  width: 85px;
+                  height: 50px;
+                }
+              }
+            }
+          }
+
+        }
+
+        .vertolyots {
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          padding-top: 10px;
+padding-bottom: 30px;
+          .artq {
+            img {
+              width: 288px;
+              height: 217px;
+            }
+          }
+
+          .els {
+            font-size: 36px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-left: 55px;
+            margin-bottom: 20px;
+          }
+
+          .one {
+            .baks {
+              background: #232323;
+              box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+
+              table {
+                width: 100%;
+              }
+            }
+
+            .lefdan {
+              margin-right: 50px;
+            }
+
+            margin-left: 80px;
+            width: 290px;
+            height: 380px;
+            background: #232323;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+            margin-bottom: 30px;
+
+            .first {
+              margin-top: 20px;
+              font-size: 20px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .sizes {
+              font-size: 16px;
+              font-weight: 200;
+              color: #FFFFFF;
+              opacity: 0.5;
+            }
+
+            table {
+              width: 100%;
+
+              tr {
+                width: 100%;
+
+                td {
+                  width: 100%;
+                  border: 2px solid #292929;
+                }
+              }
+            }
+
+            button {
+              width: 100%;
+              background-color: #292929;
+              color: #FFFFFF;
+              text-transform: uppercase;
+              font-size: 14px;
+              font-weight: 700;
+              border: none;
+            }
+          }
+
+          .mylinksd{
+            margin-left: 650px;
+            ul{
+              li{
+                a{
+                  padding-top: 10px;
+                  background-color: transparent;
+                  text-decoration: none;
+                  font-size:18px ;
+                  font-weight:300 ;
+                  color:#FFFFFF ;
+                  border: 1px solid #FFFFFF;
+                  width: 85px;
+                  height: 50px;
+                }
+              }
+            }
+          }
+
+          .mayf{
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 60px;
+            height: 1013px;
+            background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          }
+        }
+
+        .kompaniya-qism {
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          height: 697px;
+
+          .lefts {
+            margin-left: 130px;
+            margin-top: 85px;
+
+            .bir {
+              text-transform: uppercase;
+              height: 39px;
+              font-size: 36px;
+              font-weight: 300;
+              color: #FFFFFF;
+            }
+
+            .ikki {
+              text-transform: uppercase;
+              font-size: 60px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .uch {
+              margin-top: 5px;
+              font-size: 20px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.55;
+              width: 560px;
+            }
+
+            .tort {
+              margin-top: 20px;
+              font-size: 20px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.55;
+              width: 560px;
+            }
+
+            .besh {
+              .besh1 {
+                margin-right: 50px;
+              }
+
+              .besh2 {
+                margin-right: 40px;
+              }
+
+              margin-top: 30px;
+
+              .yuqor {
+                height: 34px;
+                font-size: 34px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+
+              .past {
+                margin-top: 15px;
+                line-height: 26px;
+                width: 127px;
+                font-size: 20px;
+                font-weight: 300;
+                color: #FFFFFF;
+                opacity: 0.55;
+              }
+            }
+
+            .olti {
+              margin-top: 30px;
+              font-size: 20px;
+              font-weight: 700;
+              color: #FFFFFF;
+
+              button {
+                font-size: 20px;
+                font-weight: 700;
+                color: #FFFFFF;
+                background-color: transparent;
+                border: none;
+
+                img {
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+
+          .rights {
+            .topdansur {
+              margin-top: 3px;
+            }
+
+            .one {
+              img {
+                width: 15px;
+                height: 15px;
+                margin-right: 10px;
+              }
+
+              opacity: 0;
+              margin-top: 490px;
+              font-size: 18px;
+              font-weight: 300;
+              color: #FFFFFF;
+            }
+
+            .right-two {
+              margin-top: 280px;
+              margin-left: 150px;
+
+              .posis-one {
+
+                .onst {
+                  position: absolute;
+                  left: 244px;
+                  top: 275px;
+
+                  img {
+                    width: 15px;
+                    height: 15px;
+                  }
+                }
+
+                img {
+                  width: 320px;
+                  height: 320px;
+                }
+
+                @keyframes example1 {
+                  0% {
+                    transform: rotate(0deg)
+                  }
+                  100% {
+                    transform: rotate(360deg)
+                  }
+                }
+                animation-name: example1;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+
+                position: absolute;
+                top: 270px;
+                left: 1050px;
+              }
+
+
+              .posis-two {
+                .two {
+                  position: absolute;
+                  left: 37px;
+                  top: 60px;
+
+                  img {
+                    width: 15px;
+                    height: 15px;
+                  }
+                }
+
+                img {
+                  width: 390px;
+                  height: 390px;
+                }
+
+                @keyframes example1 {
+                  0% {
+                    transform: rotate(0deg)
+                  }
+                  100% {
+                    transform: rotate(360deg)
+                  }
+                }
+                animation-name: example1;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-direction: alternate;
+                animation-fill-mode: both;
+                position: absolute;
+                top: 235px;
+                left: 1015px;
+              }
+
+              .posis-three {
+                top: 198px;
+                left: 981px;
+
+                .thres {
+                  position: absolute;
+                  left: 64px;
+                  top: 380px;
+
+                  img {
+                    width: 15px;
+                    height: 15px;
+                  }
+                }
+
+                img {
+                  width: 460px;
+                  height: 460px;
+                }
+
+                @keyframes example1 {
+                  0% {
+                    transform: rotate(0deg)
+                  }
+                  100% {
+                    transform: rotate(360deg)
+                  }
+                }
+                animation-name: example1;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-direction: alternate;
+                animation-fill-mode: both;
+                position: absolute;
+              }
+
+
+              .two {
+                .two1 {
+                  text-transform: uppercase;
+                  font-size: 48px;
+                  font-weight: 600;
+                  color: #FFFFFF;
+                }
+
+                .two2 {
+                  text-transform: uppercase;
+                  font-size: 48px;
+                  opacity: 0.8;
+                  font-weight: 200;
+                  color: #FFFFFF;
+                }
+              }
+
+              .three {
+                cursor: pointer;
+                margin-left: 65px;
+              }
+            }
+
+          }
+        }
+
+        .premushestvo {
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          height: 697px;
+          padding-left: 55px;
+
+          .leftdan {
+            margin-right: 56px;
+          }
+
+          .star {
+            margin-left: 70px;
+            margin-top: 50px;
+          }
+
+          .svetofor {
+            margin-top: 25px;
+          }
+
+          .top-qolip {
+            margin-top: 50px;
+            font-size: 30px;
+            font-weight: 300;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            width: 200px;
+          }
+
+          .qolip {
+            font-size: 18px;
+            font-weight: 300;
+            color: #FFFFFF;
+            opacity: 0.55;
+            width: 185px;
+            margin-top: 10px;
+          }
+
+          .chap-tomon {
+            .bir {
+              margin-top: 90px;
+              text-transform: uppercase;
+              font-size: 60px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .ikki {
+              text-transform: uppercase;
+              font-size: 36px;
+              font-weight: 300;
+              color: #FFFFFF;
+            }
+
+            .yuldz1 {
+              position: absolute;
+              left: 157px;
+              top: 350px;
+
+              img {
+                width: 115px;
+                height: 115px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .yuldz2 {
+              position: absolute;
+              left: 153px;
+              top: 345px;
+
+              img {
+                width: 125px;
+                height: 125px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .soat1 {
+              position: absolute;
+              left: 398px;
+              top: 350px;
+
+              img {
+                width: 115px;
+                height: 115px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .soat2 {
+              position: absolute;
+              left: 393px;
+              top: 345px;
+
+              img {
+                width: 125px;
+                height: 125px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .kaptar1 {
+              position: absolute;
+              left: 645px;
+              top: 350px;
+
+              img {
+                width: 115px;
+                height: 115px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .kaptar2 {
+              position: absolute;
+              left: 640px;
+              top: 345px;
+
+              img {
+                width: 125px;
+                height: 125px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .svetofor1 {
+              position: absolute;
+              left: 880px;
+              top: 350px;
+
+              img {
+                width: 115px;
+                height: 115px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+
+            .svetofor2 {
+              position: absolute;
+              left: 875px;
+              top: 345px;
+
+              img {
+                width: 125px;
+                height: 125px;
+              }
+
+              @keyframes example1 {
+                0% {
+                  transform: rotate(0deg)
+                }
+                100% {
+                  transform: rotate(360deg)
+                }
+              }
+              animation-name: example1;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-timing-function: linear;
+              animation-direction: alternate;
+              animation-fill-mode: both;
+            }
+          }
+
+          .ong-tomon {
+            .emayl {
+              padding-top: 55px;
+              box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+              margin-top: 60px;
+              margin-left: 60px;
+              width: 385px;
+              height: 580px;
+              background-color: #232323;
+
+              .bir {
+                text-transform: uppercase;
+                font-size: 24px;
+                font-weight: 300;
+                color: #FFFFFF;
+                opacity: 0.5;
+              }
+
+              .ikki {
+                text-transform: uppercase;
+                font-size: 36px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+
+              input {
+                margin-top: 30px;
+                width: 310px;
+                height: 50px;
+                background: rgba(0, 0, 0, 0.2);
+                border: none;
+                font-size: 15px;
+                font-weight: 300;
+                color: #B6B6B6;
+                padding-left: 20px;
+                outline: none;
+              }
+
+              button {
+                margin-top: 30px;
+                width: 310px;
+                height: 50px;
+                background-color: #FFFFFF;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 700;
+                color: #1B1B1B;
+              }
+
+              .tort {
+                margin-top: 20px;
+                font-size: 14px;
+                font-weight: 200;
+                color: #FFFFFF;
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+
+        .kalkulyators {
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          height: 697px;
+          padding-left: 55px;
+
+          .one {
+            margin-top: 40px;
+
+            img {
+              cursor: pointer;
+              width: 770px;
+              height: 600px;
+            }
+          }
+
+          .qas1 {
+            position: absolute;
+            cursor: pointer;
+            top: 165px;
+            left: 253px;
+          }
+
+          .qas2 {
+            z-index: 2;
+            cursor: pointer;
+            top: 604px;
+            left: 632px;
+            position: absolute;
+          }
+
+          .qas3 {
+            cursor: pointer;
+            position: absolute;
+            left: 370px;
+            top: 303px;
+          }
+
+          .qas4 {
+            cursor: pointer;
+            position: absolute;
+            left: 312px;
+            top: 258px;
+          }
+
+          .qas5 {
+            cursor: pointer;
+
+            img {
+              width: 260px;
+            }
+
+            left: 405px;
+            top: 330px;
+            position: absolute;
+          }
+
+          .qas6 {
+            cursor: pointer;
+            position: absolute;
+            top: 288px;
+            left: 335px;
+
+            img {
+              width: 327px;
+            }
+          }
+
+          .two {
+            padding-left: 80px;
+
+            .uppr {
+              text-transform: uppercase;
+            }
+
+            .lefd {
+              margin-right: 65px;
+            }
+
+            .one {
+              height: 65px;
+              font-size: 60px;
+              font-weight: 700;
+              color: #FFFFFF;
+
+              span {
+                margin-top: 25px;
+                margin-left: 10px;
+                font-size: 36px;
+              }
+            }
+
+            .two1 {
+              margin-top: 5px;
+              text-transform: uppercase;
+              font-size: 60px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .two-one {
+              font-size: 20px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.5;
+
+              input {
+                margin-right: 10px;
+                margin-top: 7px;
+                width: 20px;
+                height: 20px;
+              }
+            }
+
+            .two2 {
+              margin-top: 30px;
+
+              label {
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #919191;
+              }
+
+              select {
+                margin-top: 12px;
+                outline: none;
+                padding-right: 20px;
+                padding-left: 20px;
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 700;
+                border: none;
+                width: 470px;
+                height: 50px;
+                background: rgba(0, 0, 0, 0.2);
+
+                option {
+                  padding-right: 20px;
+                  background-color: transparent;
+                }
+              }
+            }
+
+            .leave-yol {
+              img {
+                margin-top: 5px;
+              }
+
+              .sur {
+                margin-top: 15px;
+                margin-left: 10px;
+                margin-right: 80px;
+              }
+
+              .sur2 {
+                margin-top: 15px;
+                margin-left: 10px;
+              }
+
+              font-size: 20px;
+              font-weight: 700;
+              color: #FFFFFF;
+              padding-left: 30px;
+              margin-top: 25px;
+              background-color: #232323;
+              width: 470px;
+              height: 60px;
+            }
+
+            .qwer {
+              margin-top: 30px;
+              width: 470px;
+              font-size: 20px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.55;
+            }
+          }
+        }
+
+        .uslug-qism {
+          height: 697px;
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+          padding-left: 55px;
+          padding-top: 40px;
+
+          .one {
+            .one1 {
+              .yuqor {
+                margin-top: 10px;
+              }
+
+              background: #232323;
+              box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+              padding: 20px 27px;
+              margin-right: 20px;
+              margin-bottom: 20px;
+
+              .vert-lef {
+                margin-left: 14px;
+
+                .vert-lef1 {
+                  text-transform: uppercase;
+                  font-size: 30px;
+                  font-weight: 700;
+                  color: #FFFFFF;
+                }
+
+                .vert-lef2 {
+                  text-transform: uppercase;
+                  font-size: 24px;
+                  font-weight: 300;
+                  color: #FFFFFF;
+                }
+              }
+
+              .buttop {
+                font-size: 18px;
+                font-weight: 300;
+                color: #FFFFFF;
+                opacity: 0.55;
+                width: 370px;
+                margin-top: 20px;
+                margin-bottom: 8px;
+              }
+
+              button {
+                margin-left: 240px;
+                font-size: 20px;
+                font-weight: 300;
+                color: #FFFFFF;
+                outline: none !important;
+                background-color: transparent;
+                border: none;
+
+                img {
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+
+          .two {
+          }
+        }
+
+
+        .Novosti-qism {
+          height: 1260px;
+          background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+
+          .tops {
+            padding-left: 50px;
+
+            .bir {
+              margin-top: 25px;
+              margin-right: 20px;
+              width: 330px;
+              background-color: #232323;
+              box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+
+              .one {
+                img {
+                  width: 330px;
+                  height: 150px;
+                }
+              }
+
+              .two {
+                margin-left: 20px;
+                margin-right: 10px;
+                margin-top: 5px;
+                font-size: 18px;
+                font-weight: 300;
+                color: #FFFFFF;
+                opacity: 0.5;
+              }
+
+              .three {
+                margin-left: 20px;
+                margin-right: 10px;
+                text-transform: uppercase;
+                margin-top: 3px;
+                width: 250px;
+                font-size: 20px;
+                font-weight: 700;
+                color: #FFFFFF;
+              }
+
+              .four {
+                margin-left: 20px;
+                margin-right: 10px;
+                margin-top: 5px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #FFFFFF;
+                opacity: 0.4;
+                width: 280px;
+              }
+
+              button {
+                margin: 10px 20px 10px 180px;
+                background-color: transparent;
+                border: none;
+                font-size: 17px;
+                font-weight: 300;
+                color: #FFFFFF;
+
+                img {
+                  margin-left: 7px;
+                }
+              }
+            }
+          }
+
+          .pagination {
+            margin-top: 30px;
+            margin-bottom: 55px;
+            margin-left: 550px;
+
+            a {
+              width: 50px;
+              height: 50px;
+              border: 1px solid #FFFFFF;
+              font-size: 18px;
+              font-weight: 300;
+              color: #FFFFFF;
+              background-color: transparent;
+            }
+          }
+
+          .bottoms {
+            padding-top: 40px;
+            border-bottom: 1px solid #C4C4C4;
+            padding-left: 50px;
+            margin-top: 0 !important;
+            background-color: #181818;
+
+            .one {
+              a {
+                text-decoration: none;
+                color: #FFFFFF !important;
+                opacity: 0.55;
+              }
+
+              cursor: pointer;
+              margin-top: 10px;
+              font-size: 18px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.55;
+            }
+
+            .yuqord {
+              padding-top: 23px;
+            }
+
+            .two {
+              a {
+                text-decoration: none;
+                color: #FFFFFF !important;
+                opacity: 0.55;
+              }
+
+              cursor: pointer;
+              margin-top: 10px;
+              font-size: 18px;
+              font-weight: 400;
+              color: #FFFFFF;
+              opacity: 0.55;
+            }
+
+            .three {
+              a {
+                text-decoration: none;
+                color: #FFFFFF;
+              }
+
+              cursor: pointer;
+              font-size: 18px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .topdans {
+              margin-top: 10px;
+            }
+
+            .yuqr {
+              a {
+                text-decoration: none;
+                color: #FFFFFF;
+              }
+
+              cursor: pointer;
+              font-size: 36px;
+              font-weight: 700;
+              color: #FFFFFF;
+            }
+
+            .yuqr2 {
+              a {
+                text-decoration: none;
+                color: #FFFFFF;
+              }
+
+              cursor: pointer;
+              font-size: 30px;
+              font-weight: 300;
+              color: #FFFFFF;
+            }
+
+            input {
+              margin-top: 28px;
+              padding-left: 20px;
+              width: 200px;
+              height: 40px;
+              border: 1px solid rgba(255, 255, 255, 0.5);
+              background-color: transparent;
+              font-size: 20px;
+              font-weight: 300;
+              color: #FFFFFF;
+              opacity: 0.2;
+            }
+
+            button {
+              margin-bottom: 40px;
+              margin-top: 28px;
+              width: 180px;
+              height: 40px;
+              border: 1px solid rgba(255, 255, 255, 0.5);
+              background-color: #FFFFFF;
+              font-size: 16px;
+              font-weight: 700;
+              color: #111111;
+              text-transform: uppercase;
+            }
+
+            .asos {
+              margin-left: 130px;
+            }
+
+            .asos2 {
+              margin-left: 80px;
+            }
+
+            .asos3 {
+              margin-left: 50px;
+            }
+          }
+
+          .bots {
+            padding-left: 50px;
+            padding-top: 20px;
+
+            .bots1 {
+              font-size: 12px;
+              font-weight: 400;
+              color: #D0D0D0;
+
+              a {
+                text-decoration: none;
+                color: #D0D0D0;
+              }
+            }
+
+            .bots2 {
+              a {
+                text-decoration: none;
+                color: #D0D0D0;
+              }
+
+              padding-left: 950px;
+              font-size: 12px;
+              font-weight: 400;
+              color: #D0D0D0;
+            }
+          }
+
+          .leftga {
+            top: 80px;
+            left: 0;
+            border-right: 1px solid #C4C4C4;
+            width: 61px;
+            height: 1274px;
+            background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}
